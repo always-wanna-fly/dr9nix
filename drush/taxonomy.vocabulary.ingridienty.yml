@@ -1,0 +1,8 @@
+uuid: 9a3e3990-66e3-4491-9125-e8dd08d77a70
+langcode: ru
+status: true
+dependencies: {  }
+name: Ингридиенты
+vid: ingridienty
+description: ''
+weight: 0

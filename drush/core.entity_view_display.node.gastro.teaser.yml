@@ -4,20 +4,44 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.gastro.field_anons
+    - field.field.node.gastro.field_country
+    - field.field.node.gastro.field_ingredienty
     - field.field.node.gastro.field_paragraphs
+    - field.field.node.gastro.field_promo_image
     - node.type.gastro
   module:
+    - taxonomy
     - user
 id: node.gastro.teaser
 targetEntityType: node
 bundle: gastro
 mode: teaser
 content:
-  links:
-    weight: 100
+  field_anons:
+    type: basic_string
+    weight: 1
+    region: content
+    label: above
     settings: {  }
     third_party_settings: {  }
+  field_country:
+    type: entity_reference_rss_category
+    weight: 4
     region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_promo_image:
+    type: entity_reference_label
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
 hidden:
+  field_ingredienty: true
   field_paragraphs: true
   langcode: true
+  links: true

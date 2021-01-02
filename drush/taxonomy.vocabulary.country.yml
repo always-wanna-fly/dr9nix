@@ -1,0 +1,8 @@
+uuid: c65e1230-d147-4588-bf6e-82b11147f401
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Страна блюда'
+vid: country
+description: ''
+weight: 0
