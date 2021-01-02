@@ -37,3 +37,10 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+/.csslintrc
+/.editorconfig
+/.eslintignore
+/.eslintrc.json
+/.gitattributes
+/.ht.router.php
+/.htaccess
