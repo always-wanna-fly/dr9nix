@@ -1,0 +1,22 @@
+uuid: 1ae31ce9-ea50-4e0f-8ae8-04c9d0e1bf4c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.gastro
+id: node.gastro.promote
+field_name: promote
+entity_type: node
+bundle: gastro
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

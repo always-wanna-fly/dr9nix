@@ -1,0 +1,23 @@
+uuid: 0036db4f-0a93-4537-9acd-8f8d40c52fc4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gastro.field_paragraphs
+    - node.type.gastro
+  module:
+    - user
+id: node.gastro.teaser
+targetEntityType: node
+bundle: gastro
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_paragraphs: true
+  langcode: true

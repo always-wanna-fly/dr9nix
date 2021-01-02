@@ -1,0 +1,31 @@
+uuid: c04e9c02-0643-4d4a-8d83-2fe63d92cdf1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.gastro.field_paragraphs
+    - node.type.gastro
+  module:
+    - entity_reference_revisions
+    - user
+id: node.gastro.default
+targetEntityType: node
+bundle: gastro
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

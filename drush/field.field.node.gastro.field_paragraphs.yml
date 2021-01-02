@@ -1,0 +1,41 @@
+uuid: 790b0f31-95ca-4f3e-a28c-69e6618f52ea
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.gastro
+  module:
+    - entity_reference_revisions
+id: node.gastro.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: gastro
+label: Содержимое
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      gallery:
+        weight: -8
+        enabled: false
+      image:
+        weight: -10
+        enabled: false
+      image_and_text:
+        weight: -9
+        enabled: false
+      remote_video:
+        weight: -7
+        enabled: false
+      text:
+        weight: -11
+        enabled: false
+field_type: entity_reference_revisions
