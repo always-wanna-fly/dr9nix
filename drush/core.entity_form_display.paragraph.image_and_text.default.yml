@@ -7,6 +7,8 @@ dependencies:
     - field.field.paragraph.image_and_text.field_text
     - field.field.paragraph.image_and_text.field_title
     - paragraphs.paragraphs_type.image_and_text
+  module:
+    - media_library
 id: paragraph.image_and_text.default
 targetEntityType: paragraph
 bundle: image_and_text
@@ -15,12 +17,9 @@ content:
   field_image:
     weight: 1
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      media_types: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: media_library_widget
     region: content
   field_text:
     weight: 2

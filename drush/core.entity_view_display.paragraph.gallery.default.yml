@@ -6,6 +6,8 @@ dependencies:
     - field.field.paragraph.gallery.field_image
     - field.field.paragraph.gallery.field_title
     - paragraphs.paragraphs_type.gallery
+  module:
+    - media
 id: paragraph.gallery.default
 targetEntityType: paragraph
 bundle: gallery
@@ -13,15 +15,16 @@ mode: default
 content:
   field_image:
     weight: 0
-    label: above
+    label: hidden
     settings:
-      link: true
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    type: entity_reference_label
+    type: media_thumbnail
     region: content
   field_title:
     weight: 1
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
