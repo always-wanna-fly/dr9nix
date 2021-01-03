@@ -1,0 +1,23 @@
+uuid: 8a9f83a8-5cfc-417c-b07b-283fb98bd0a0
+langcode: ru
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - gastro
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: gastro_search
+theme: gastro
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Поиск
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

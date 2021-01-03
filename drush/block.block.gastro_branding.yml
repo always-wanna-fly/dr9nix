@@ -1,0 +1,25 @@
+uuid: c39edfe3-3652-4b11-b96e-81aeb87254f6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gastro
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: gastro_branding
+theme: gastro
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

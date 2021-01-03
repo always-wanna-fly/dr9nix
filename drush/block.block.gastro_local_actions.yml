@@ -1,0 +1,20 @@
+uuid: 02f1af69-d22c-476c-b699-417344a8a0ff
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - gastro
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: gastro_local_actions
+theme: gastro
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основные действия администратора'
+  provider: core
+  label_display: '0'
+visibility: {  }
