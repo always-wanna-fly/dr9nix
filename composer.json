@@ -24,6 +24,8 @@
         "drupal/core-vendor-hardening": "^9.1",
         "drupal/devel": "^4.1",
         "drupal/field_group": "^3.1",
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/panels": "^4.6",
         "drupal/paragraphs": "^1.12"
     },
     "conflict": {

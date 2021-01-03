@@ -1,0 +1,14 @@
+frontpage:
+  label: Frontpage
+  category: My Layouts
+  template: templates/one-column
+  css: css/one-column.css
+  regions:
+    main:
+      label: Main content
+    left:
+      label: Left column
+    right:
+      label: Right column
+    footer:
+      label: Footer

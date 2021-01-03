@@ -1,0 +1,5 @@
+name: frontpagemodule
+description: module for custom
+core_version_requirement: ^8.8.0 || ^9.0
+type: module
+package: frontpagemodule

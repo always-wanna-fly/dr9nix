@@ -12,8 +12,8 @@ _core:
   default_config_hash: rH6PpAn7-RScha1rGkohGAYSSh_1OVeZzioJPzPw6O4
 id: gastro_tools
 theme: gastro
-region: sidebar_first
-weight: 0
+region: hidden_block
+weight: -4
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

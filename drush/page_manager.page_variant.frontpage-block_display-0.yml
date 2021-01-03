@@ -1,0 +1,55 @@
+uuid: ebc5f567-8e1c-41f0-9ff7-08d300731f30
+langcode: ru
+status: true
+dependencies:
+  config:
+    - page_manager.page.frontpage
+    - views.view.who_s_online
+  module:
+    - panels
+    - system
+    - views
+id: frontpage-block_display-0
+label: 'Block page'
+variant: panels_variant
+variant_settings:
+  blocks:
+    28351201-4ed8-41c6-ab97-dc07fb864260:
+      id: 'views_block:who_s_online-who_s_online_block'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: first
+      weight: 0
+      uuid: 28351201-4ed8-41c6-ab97-dc07fb864260
+      context_mapping: {  }
+    ced632ad-1892-4b71-9d95-66f21b682729:
+      id: system_branding_block
+      label: 'Site branding'
+      provider: system
+      label_display: '0'
+      use_site_logo: true
+      use_site_name: true
+      use_site_slogan: true
+      region: second
+      weight: 0
+      uuid: ced632ad-1892-4b71-9d95-66f21b682729
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 42b48936-243a-4bdf-9613-eb7d3e82c7f2
+  label: null
+  weight: 0
+  page_title: ''
+  layout: layout_twocol
+  layout_settings:
+    label: page1
+  storage_type: page_manager
+  storage_id: frontpage-block_display-0
+  builder: standard
+page: frontpage
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
