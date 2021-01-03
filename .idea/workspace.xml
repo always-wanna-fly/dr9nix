@@ -20,23 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47acaa12-faf5-434c-beff-16ff6653a248" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/config/install/gastro.settings.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/config/schema/gastro.schema.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/gastro.info.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/gastro.libraries.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/gastro.theme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/images/required.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/gastro/templates/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dr9nix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dr9nix.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/gastro/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/gastro/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/gastro/gastro.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/gastro/gastro.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/gastro/gastro.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/gastro/gastro.libraries.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/custom/gastro/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,6 +128,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/custom/gastro/templates" />
+      <recent name="$PROJECT_DIR$/themes/custom/gastro/css" />
       <recent name="$PROJECT_DIR$/themes/custom" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -155,7 +144,9 @@
       <updated>1609586440387</updated>
       <workItem from="1609586444537" duration="987000" />
       <workItem from="1609618574249" duration="680000" />
-      <workItem from="1609669186579" duration="1050000" />
+      <workItem from="1609669186579" duration="1228000" />
+      <workItem from="1609671375151" duration="1357000" />
+      <workItem from="1609673799506" duration="1339000" />
     </task>
     <servers />
   </component>
@@ -172,6 +163,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1062" y="570" width="355" height="230" key="#Drupal" timestamp="1609586769543">

@@ -22,12 +22,5 @@ content:
     third_party_settings: {  }
     type: media_thumbnail
     region: content
-  field_title:
-    weight: 1
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-hidden: {  }
+hidden:
+  field_title: true

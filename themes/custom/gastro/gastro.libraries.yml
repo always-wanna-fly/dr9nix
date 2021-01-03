@@ -2,6 +2,15 @@ framework:
   css:
     theme:
       css/style.css: {}
+front-page:
+  css:
+    theme:
+      css/frontpage.css: {}
+
+gastro-page:
+  css:
+    theme:
+      css/gastronode.css: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:

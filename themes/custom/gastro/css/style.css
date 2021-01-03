@@ -1,4 +1,42 @@
-/**
- * If using a CSS pre-processor, tell it to overwrite this file. If not, place
- * your custom CSS modifications here.
- */
+.teaser-title{
+  height: 60px;
+}
+.teaser-image img{
+  min-height: 300px;
+}
+.teaser-body{
+  min-height: 110px;
+}
+.gastro-image img{
+  display: block;
+  margin: 15px auto 15px auto;
+  width: 75%;
+}
+
+.remote-video iframe{
+  display: block;
+  margin: 15px auto 15px auto;
+  width: 85%;
+  min-height: 400px;
+
+}
+.con-text{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-stretch: semi-condensed;
+  background-color: azure;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery {
+  width: 100%;
+  height: auto;
+}
