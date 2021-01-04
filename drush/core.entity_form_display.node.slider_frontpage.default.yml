@@ -1,0 +1,37 @@
+uuid: c9499bd0-f211-4556-84b0-3032b041bb0c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.slider_frontpage.field_image_slider
+    - node.type.slider_frontpage
+  module:
+    - media_library
+id: node.slider_frontpage.default
+targetEntityType: node
+bundle: slider_frontpage
+mode: default
+content:
+  field_image_slider:
+    type: media_library_widget
+    weight: 1
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

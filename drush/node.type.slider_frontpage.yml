@@ -1,0 +1,18 @@
+uuid: 36517ec4-d01b-47d0-8f5b-e1254edb7c28
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Слайдер на головній сторінці'
+type: slider_frontpage
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

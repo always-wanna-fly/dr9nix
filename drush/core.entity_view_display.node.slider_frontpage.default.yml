@@ -1,0 +1,28 @@
+uuid: beaa1d49-d768-49e0-8fe1-8fea03b53aee
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.slider_frontpage.field_image_slider
+    - image.style.slider_front
+    - node.type.slider_frontpage
+  module:
+    - media
+    - user
+id: node.slider_frontpage.default
+targetEntityType: node
+bundle: slider_frontpage
+mode: default
+content:
+  field_image_slider:
+    type: media_thumbnail
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: slider_front
+      image_link: media
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  links: true

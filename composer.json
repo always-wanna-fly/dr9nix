@@ -26,7 +26,8 @@
         "drupal/field_group": "^3.1",
         "drupal/page_manager": "^4.0@beta",
         "drupal/panels": "^4.6",
-        "drupal/paragraphs": "^1.12"
+        "drupal/paragraphs": "^1.12",
+        "drupal/views_slideshow": "^4.8"
     },
     "conflict": {
         "drupal/drupal": "*"

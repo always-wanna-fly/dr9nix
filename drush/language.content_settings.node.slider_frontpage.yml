@@ -1,0 +1,11 @@
+uuid: b836bda5-55bd-410f-8254-c889f346c209
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.slider_frontpage
+id: node.slider_frontpage
+target_entity_type_id: node
+target_bundle: slider_frontpage
+default_langcode: site_default
+language_alterable: false

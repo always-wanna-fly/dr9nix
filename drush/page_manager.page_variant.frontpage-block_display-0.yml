@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - page_manager.page.frontpage
+    - views.view.slider_front
     - views.view.who_s_online
   module:
     - panels
@@ -37,14 +38,24 @@ variant_settings:
       weight: 0
       uuid: ced632ad-1892-4b71-9d95-66f21b682729
       context_mapping: {  }
+    608a33f6-1ff5-48fe-9867-1593fbc9ae6e:
+      id: 'views_block:slider_front-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: 608a33f6-1ff5-48fe-9867-1593fbc9ae6e
+      context_mapping: {  }
   id: panels_variant
   uuid: 42b48936-243a-4bdf-9613-eb7d3e82c7f2
   label: null
   weight: 0
   page_title: ''
   layout: layout_twocol
-  layout_settings:
-    label: page1
+  layout_settings: {  }
   storage_type: page_manager
   storage_id: frontpage-block_display-0
   builder: standard
