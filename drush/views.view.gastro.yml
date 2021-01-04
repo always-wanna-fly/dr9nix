@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_anons
     - field.storage.node.field_promo_image
-    - image.style.media_library
+    - image.style.teaser_image
     - node.type.gastro
     - system.menu.devel
   module:
@@ -52,7 +52,7 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: mini
+        type: full
         options:
           items_per_page: 12
           offset: 0
@@ -61,6 +61,8 @@ display:
           tags:
             previous: ‹‹
             next: ››
+            first: '« Первая'
+            last: 'Последняя »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -69,6 +71,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          quantity: 9
       style:
         type: default
         options:
@@ -181,7 +184,7 @@ display:
           click_sort_column: target_id
           type: media_thumbnail
           settings:
-            image_style: media_library
+            image_style: teaser_image
             image_link: content
           group_column: target_id
           group_columns: {  }

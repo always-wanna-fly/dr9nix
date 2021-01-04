@@ -5,39 +5,15 @@ dependencies:
   config:
     - page_manager.page.frontpage
     - views.view.slider_front
-    - views.view.who_s_online
+    - views.view.text_front
   module:
     - panels
-    - system
     - views
 id: frontpage-block_display-0
 label: 'Block page'
 variant: panels_variant
 variant_settings:
   blocks:
-    28351201-4ed8-41c6-ab97-dc07fb864260:
-      id: 'views_block:who_s_online-who_s_online_block'
-      label: ''
-      provider: views
-      label_display: visible
-      views_label: ''
-      items_per_page: none
-      region: first
-      weight: 0
-      uuid: 28351201-4ed8-41c6-ab97-dc07fb864260
-      context_mapping: {  }
-    ced632ad-1892-4b71-9d95-66f21b682729:
-      id: system_branding_block
-      label: 'Site branding'
-      provider: system
-      label_display: '0'
-      use_site_logo: true
-      use_site_name: true
-      use_site_slogan: true
-      region: second
-      weight: 0
-      uuid: ced632ad-1892-4b71-9d95-66f21b682729
-      context_mapping: {  }
     608a33f6-1ff5-48fe-9867-1593fbc9ae6e:
       id: 'views_block:slider_front-block_1'
       label: ''
@@ -46,8 +22,30 @@ variant_settings:
       views_label: ''
       items_per_page: none
       region: top
-      weight: 0
+      weight: -10
       uuid: 608a33f6-1ff5-48fe-9867-1593fbc9ae6e
+      context_mapping: {  }
+    8d95df02-2dea-454a-8b4b-dcdebbcf6f1f:
+      id: 'views_block:text_front-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: first
+      weight: 0
+      uuid: 8d95df02-2dea-454a-8b4b-dcdebbcf6f1f
+      context_mapping: {  }
+    ed1010ca-525a-4e27-b8ec-04d8e787d042:
+      id: 'views_block:text_front-block_2'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: second
+      weight: -1
+      uuid: ed1010ca-525a-4e27-b8ec-04d8e787d042
       context_mapping: {  }
   id: panels_variant
   uuid: 42b48936-243a-4bdf-9613-eb7d3e82c7f2

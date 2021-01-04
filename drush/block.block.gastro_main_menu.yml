@@ -12,7 +12,7 @@ _core:
   default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
 id: gastro_main_menu
 theme: gastro
-region: navigation
+region: navigation_collapsible
 weight: -4
 provider: null
 plugin: 'system_menu_block:main'
