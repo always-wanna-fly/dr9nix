@@ -1,0 +1,22 @@
+uuid: 15077c39-661a-49ee-911a-94b719246310
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gastro
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: gastro_content
+theme: gastro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Содержимое страницы'
+  provider: system
+  label_display: '0'
+visibility: {  }

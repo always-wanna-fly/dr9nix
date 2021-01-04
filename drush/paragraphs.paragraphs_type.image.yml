@@ -1,0 +1,10 @@
+uuid: 9915f7b1-ae7f-4cec-afbe-778bfc6bc69c
+langcode: ru
+status: true
+dependencies: {  }
+id: image
+label: Картинка
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,19 @@
+uuid: 0cf3f728-1ccd-4db9-b65a-ad6dbc71c4d2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.image_and_text
+id: paragraph.image_and_text.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: image_and_text
+label: Текст
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

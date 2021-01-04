@@ -1,0 +1,22 @@
+uuid: 7dc291f9-2b14-4403-ae01-3cb415a77dd6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gastro
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: gastro_breadcrumbs
+theme: gastro
+region: navigation_collapsible
+weight: -3
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Строка навигации'
+  provider: system
+  label_display: '0'
+visibility: {  }

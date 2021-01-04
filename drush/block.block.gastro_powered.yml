@@ -1,0 +1,22 @@
+uuid: 3d73a681-c79f-49c3-85ba-0a89a0410f15
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gastro
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: gastro_powered
+theme: gastro
+region: hidden_block
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Сделано на Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 9b47bf91-6fba-4327-ad2e-66b15eec9280
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.gastro
+id: node.gastro
+target_entity_type_id: node
+target_bundle: gastro
+default_langcode: site_default
+language_alterable: false

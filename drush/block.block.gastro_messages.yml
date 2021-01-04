@@ -1,0 +1,22 @@
+uuid: cff00314-e6e0-4967-85c1-aa1d2fa782ab
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gastro
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: gastro_messages
+theme: gastro
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Системные сообщения'
+  provider: system
+  label_display: '0'
+visibility: {  }

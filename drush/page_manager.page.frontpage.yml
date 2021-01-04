@@ -1,0 +1,12 @@
+uuid: 4031555c-adb2-440d-8ad1-0c983af3f009
+langcode: ru
+status: true
+dependencies: {  }
+id: frontpage
+label: 'Главная старница'
+description: ''
+use_admin_theme: false
+path: /frontpage
+access_logic: and
+access_conditions: {  }
+parameters: {  }

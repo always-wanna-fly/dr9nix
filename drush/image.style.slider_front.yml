@@ -1,0 +1,15 @@
+uuid: a85aa750-1bea-456e-b1f1-251d60bf1b0a
+langcode: ru
+status: true
+dependencies: {  }
+name: slider_front
+label: 'slider front'
+effects:
+  30ec96ab-b17c-43b9-a2a9-bff747a4782a:
+    uuid: 30ec96ab-b17c-43b9-a2a9-bff747a4782a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 250
+      anchor: center-center

@@ -1,0 +1,19 @@
+uuid: c5cddcb9-645f-4d1d-ab21-a14746fedc1b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slider_frontpage.field_image_slider
+    - node.type.slider_frontpage
+  module:
+    - user
+id: node.slider_frontpage.teaser
+targetEntityType: node
+bundle: slider_frontpage
+mode: teaser
+content: {  }
+hidden:
+  field_image_slider: true
+  langcode: true
+  links: true

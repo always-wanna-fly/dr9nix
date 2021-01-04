@@ -1,0 +1,19 @@
+uuid: 8a2c0f48-f504-4733-98fa-1c462b03a449
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anons
+    - node.type.gastro
+id: node.gastro.field_anons
+field_name: field_anons
+entity_type: node
+bundle: gastro
+label: Анонс
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

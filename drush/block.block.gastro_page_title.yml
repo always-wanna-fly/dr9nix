@@ -1,0 +1,20 @@
+uuid: 99bfb5f0-309b-4feb-8bbf-562d9524441f
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - gastro
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: gastro_page_title
+theme: gastro
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок страницы'
+  provider: core
+  label_display: '0'
+visibility: {  }
